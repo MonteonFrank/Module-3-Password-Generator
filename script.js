@@ -182,9 +182,7 @@ if (NormalCase===false && UpperCase === false && SpecialCharacters === true && N
 //The password is then created
 for (var i = 0 ; i < (PasswordLength-counter); i++) {
 
-  console.log(i);
   PasswordCreation += charset.charAt(Math.floor(Math.random() * charset.length));
-  console.log(PasswordCreation);
   
 }
 
