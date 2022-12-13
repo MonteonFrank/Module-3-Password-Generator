@@ -141,25 +141,28 @@ if (NormalCase===false && UpperCase === false && SpecialCharacters === true && N
   console.log(charset);
 }
 
-//Char set only uses normal characters
+//Char set only uses lower case characters and numbers
 if (NormalCase===true && UpperCase === false && SpecialCharacters === false && NumberCase === true){
 
   charset = normalCharSet.concat(numberCharSet);
   console.log(charset);
 }
 
+//Char set uses lower case and upper case
 if (NormalCase===true && UpperCase === true && SpecialCharacters === false && NumberCase === false){
 
   charset = normalCharSet.concat(UpperCase);
   console.log(charset);
 }
 
+//Char set uses only numbers
 if (NormalCase===false && UpperCase === false && SpecialCharacters === false && NumberCase === true){
 
   charset = numberCharSet;
   console.log(charset);
 }
 
+//Char set uses lower case 
 if (NormalCase===true && UpperCase === false && SpecialCharacters === false && NumberCase === false){
 
   charset = normalCharSet;
@@ -172,6 +175,7 @@ if (NormalCase===false && UpperCase === true && SpecialCharacters === false && N
   console.log(charset);
 }
 
+//Char set uses special characters only
 if (NormalCase===false && UpperCase === false && SpecialCharacters === true && NumberCase === false){
 
   charset = SpecialCharSet;
@@ -179,7 +183,7 @@ if (NormalCase===false && UpperCase === false && SpecialCharacters === true && N
 }
 
 
-//The password is then created
+//The password is then created and the counter substracted from the questions that were answered as true
 for (var i = 0 ; i < (PasswordLength-counter); i++) {
 
   PasswordCreation += charset.charAt(Math.floor(Math.random() * charset.length));
