@@ -141,10 +141,13 @@ Depending on the user's answers, these are stored in a bolean variable and at th
 <h2><strong>What did I learn?</strong></h2>
 <p>During this challenge I learned to use JavaScript a bit more however, I am sure the code can be otpmized, specially with the combination of answers fromt the user. It was challenging but fun at the same time. </p>
 
-<h2><strong>Screenshots</strong></h2>
+<h2><strong>Screenshots and links</strong></h2>
 <p>How the webpage should look when opening:</p>
 ![image](https://user-images.githubusercontent.com/112662397/208281534-f24a742e-b209-40b2-86bf-5ec4b2192fc2.png)
 
 <p>How the webpage should look when you click on the generate password and all variables are true and with 8 character long password</p>
 ![image](https://user-images.githubusercontent.com/112662397/208281555-f04d741c-0195-4692-99ef-b5bfd98de1d6.png)
+
+<p>Link to github pages </p>
+https://monteonfrank.github.io/Module-3-Password-Generator/
 
