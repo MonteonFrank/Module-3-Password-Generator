@@ -7,6 +7,7 @@ var LowerCase;
 var UpperCase;
 var SpecialCharacters;
 var NumberCase;
+var charset;
 
 
 // Assignment Code
