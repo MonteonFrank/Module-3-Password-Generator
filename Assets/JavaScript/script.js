@@ -51,7 +51,7 @@ else{
   LowerCase = false;
 }
 
-//Asks if the user wants to use capital letters, selects one letter at random and adds to the counter to substract to the PasswordLength at the end
+//Asks if the user wants to use upper case, selects one letter at random and adds to the counter to substract to the PasswordLength at the end
 //This way we at least have one upper character per the accpetance criteria
 if (window.confirm("Do you want to use Upper Case Letters?")){
 
@@ -122,7 +122,7 @@ if (LowerCase===true && UpperCase === true && SpecialCharacters === true && Numb
 }
 
 
-//Charset uses uppercase, special characters and numbers
+//Charset uses upper case, special characters and numbers
 //Scenario 2
 if (LowerCase ===false && UpperCase === true && SpecialCharacters === true && NumberCase === true){
   charset = UpperCharSet.concat(SpecialCharSet,NumberCharSet);
@@ -137,14 +137,14 @@ if (LowerCase === true && UpperCase === false && SpecialCharacters === true && N
 }
 
 
-//Charset uses lower case, uper case and numbers
+//Charset uses lower case, upper case and numbers
 //Scenario 4
 if (LowerCase === true && UpperCase === true && SpecialCharacters === false && NumberCase === true){
   charset = LowerCharSet.concat(UpperCharSet,NumberCharSet);
   console.log(charset);
 }
 
-//Charset uses lower case, uper case and special caracters
+//Charset uses lower case, upper case and special caracters
 //Scenario 5
 if (LowerCase === true && UpperCase === true && SpecialCharacters === true && NumberCase === false){
   charset = LowerCharSet.concat(UpperCharSet,SpecialCharSet);
@@ -194,7 +194,7 @@ if (LowerCase === true && UpperCase === false && SpecialCharacters === false && 
   console.log(charset);
 }
 
-//Char set only used uppercase
+//Char set only used upper case
 //Scenario 12
 if (LowerCase === false && UpperCase === true && SpecialCharacters === false && NumberCase === false){
   charset = UpperCharSet;
@@ -211,7 +211,7 @@ if (LowerCase === false && UpperCase === false && SpecialCharacters === true && 
 //Restarts the password generation since no variable was selected
 //Scenario 14 
 if (LowerCase === false && UpperCase === false && SpecialCharacters === false && NumberCase === false){
-  alert ("Please choose select at least one variable for the password creation");
+  alert ("Please select at least one variable for the password creation");
   return generatePassword()
 }
 
