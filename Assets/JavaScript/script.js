@@ -34,6 +34,10 @@ function generatePassword(){
 var PasswordLength=0;
 var counter = 0;
 var PasswordCreation = "";
+var LowerCase=0;
+var UpperCase=0;
+var SpecialCharacters=0;
+var NumberCase=0;
 
 //Asks if user wants to use lower case letters, selects one letter at random and adds to the counter to substract to the PasswordLength at the end
 //This way we at least have one lower case character per the acceptance criteria
