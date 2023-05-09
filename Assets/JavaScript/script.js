@@ -105,7 +105,7 @@ else {
 
 
 //Ask for the length of the password, if its not within the parameters, the function starts all over
-PasswordLength = prompt ("How many characters do you want for your password? (8 - 128");
+PasswordLength = prompt ("How many characters do you want for your password? (8 - 128)");
 
 console.log(PasswordLength);
 
